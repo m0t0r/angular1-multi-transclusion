@@ -1,0 +1,19 @@
+{
+  "name": "angular1-multi-transclusion",
+  "version": "0.0.1",
+  "description": "A simple calendar component which uses angular 1.5 multi transclusion",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs",
+    "app",
+    "calendar",
+    "transclusion",
+    "multi-transclusion"
+  ],
+  "author": "Vitaly",
+  "license": "MIT",
+  "dependencies": { }
+}

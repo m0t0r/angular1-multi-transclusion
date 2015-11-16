@@ -1,0 +1,53 @@
+.my-calendar-container {
+  font-family: 'Lato', sans-serif;
+  width: 250px;
+  height: 300px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.my-calendar-title {
+  position: relative;
+  height: 38px;
+  background: #F44336;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  text-align: center;
+  padding-top: 17px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.my-calendar-title:before {
+  content: '';
+  position: absolute;
+  top: 22px;
+  left: 30px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.my-calendar-title:after {
+  content: '';
+  position: absolute;
+  top: 22px;
+  right: 30px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.my-calendar-day {
+  height: 185px;
+  font-size: 10em;
+  text-align: center;
+}
+
+.my-calendar-month {
+  text-align: center;
+  font-size: 2em;
+}
