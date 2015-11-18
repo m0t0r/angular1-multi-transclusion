@@ -3,18 +3,13 @@
 
   angular
     .module('app', [])
-    .directive('myCalendar', myCalendar);
-
-    function myCalendar() {
-      return {
-        restrict: 'E',
-        transclude: {
-          dayOfWeek: 'daySlot',
-          date: 'dateSlot',
-          month: 'monthSlot'
-        },
-        scope: {},
-        template: `
+    .component('myCalendar', {
+      transclude: {
+        dayOfWeek: 'daySlot',
+        date: 'dateSlot',
+        month: 'monthSlot'
+      },
+      template: `
           <div class="my-calendar-container">
             <div class="my-calendar-title" ng-transclude="daySlot"></div>
             <div class="my-calendar-body">
@@ -23,6 +18,5 @@
             </div>
           </div>
         `
-      }
-    }
+    });
 }());
