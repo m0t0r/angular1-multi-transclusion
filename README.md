@@ -3,6 +3,8 @@ A simple calendar component that uses angular 1.5 multiple transclusion feature
 
 ## Usage:
 
+`npm install`
+
 ```html
 <my-calendar>
   <day-of-week>Tuesday</day-of-week>
